@@ -1,15 +1,24 @@
-# vite
+# BA Recipe Extractor
 
-To install dependencies:
+A tiny single-page app that turns a Bon Appetit recipe link into a clean recipe card.
+
+- Paste a Bon Appetit recipe URL
+- The serverless function extracts the Recipe JSON-LD
+- The UI renders ingredients, steps, and key details
+
+Live site:
+
+- https://ba-recipe-extractor.vercel.app/
+
+## Development
 
 ```bash
 bun install
+bun run dev
 ```
 
-To run:
+## Build
 
 ```bash
-bun run index.ts
+bun run build
 ```
-
-This project was created using `bun init` in bun v1.3.9. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
